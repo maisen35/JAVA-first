@@ -1,0 +1,14 @@
+
+public class Chapter07 {
+	public static void main(String[] args) {
+		int meter = 34;
+		if (meter <= 5) {
+			System.out.println("くそが");
+		} else if (meter <= 10) {
+			System.out.println("近いです");
+		} else if (meter <= 15) {
+			System.out.println("遠いです");
+		} else 
+			System.out.println("とても遠いです");
+	}
+}
