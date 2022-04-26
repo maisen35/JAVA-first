@@ -1,0 +1,9 @@
+package practice;
+
+public class Car {
+	private double fuelCost;
+	
+	private double fuelAmount;
+	
+	
+}
