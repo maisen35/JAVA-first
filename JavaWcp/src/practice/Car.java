@@ -5,5 +5,18 @@ public class Car {
 	
 	private double fuelAmount;
 	
+	public Car(double fuelCost, double fuelAmount) {
+		this.fuelCost = fuelCost;
+		this.fuelAmount = fuelAmount;
+	}
+	
+	public void move(int meter) {
+		System.out.println(meter + "km走ります");
+		this.fuelAmount -= (meter / fuelCost);
+	}
+	
+	public double getFuelAmount() {
+		return this.fuelAmount;
+	}
 	
 }
